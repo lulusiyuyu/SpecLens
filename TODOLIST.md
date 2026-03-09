@@ -122,11 +122,11 @@
 
 ### 2D: 目标项目 — claude-code
 
-- [ ] **2D.1** Clone claude-code 项目到本地
+- [x] **2D.1** Clone claude-code 项目到本地
   - `git clone https://github.com/anthropics/claude-code`
-- [ ] **2D.2** 用 Analyze Skill 生成 `examples/claude-code/` 的 Specs 骨架
-- [ ] **2D.3** 用 Expand Skill 展开 3-5 个核心模块的 Spec
-- [ ] **2D.4** 审查结果，迭代 Skill
+- [x] **2D.2** 用 Analyze Skill 生成 `examples/claude-code/` 的 Specs 骨架
+- [x] **2D.3** 用 Expand Skill 展开 3-5 个核心模块的 Spec
+- [x] **2D.4** 审查结果，迭代 Skill
 
 ---
 
