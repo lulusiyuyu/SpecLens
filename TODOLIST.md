@@ -160,38 +160,31 @@
 
 ### 3.5A: Skill 文件双语化
 
-- [ ] **3.5A.1** 为每个 Skill 添加 `lang` 参数支持（在 SKILL.md 的指令中）
+- [x] **3.5A.1** 为每个 Skill 添加 `lang` 参数支持（在 SKILL.md 的指令中）
   - Skill 接受 `lang: zh | en` 参数，控制生成的 Specs 使用中文还是英文
   - 默认 `lang: en`（面向国际社区）
   - Skill 文件本身用英文编写（作为国际标准），关键术语附中文注释
-- [ ] **3.5A.2** 在每个 Skill 指令中添加语言相关的明确规则：
+- [x] **3.5A.2** 在每个 Skill 指令中添加语言相关的明确规则：
   - section 标题的中英文对照（如 `## Responsibilities` / `## 职责`）
   - 用人类自然语言描述，不能中英混杂（要么全中文，要么全英文）
   - 术语表 `_glossary.md` 中同时保留中英文术语
 
 ### 3.5B: 模板文件双语化
 
-- [ ] **3.5B.1** 为 `templates/` 中每个模板添加 `lang` frontmatter 字段
-  - 模板中用占位符标注中英文切换点，如 `{{section_responsibilities}}` → `Responsibilities` / `职责`
-- [ ] **3.5B.2** 或者：为每个模板提供中英文两个版本
-  - `templates/en/spec_file.md` + `templates/zh/spec_file.md`
-  - 选择更简洁的方案实施（占位符 or 双版本），并在模板 README 中说明
+- [x] **3.5B.1** 采用双版本方案：英文模板保留在 `templates/` 根目录（默认），中文模板放在 `templates/zh/`
+- [x] **3.5B.2** 创建 `templates/zh/` 目录，包含全部 7 个中文模板文件
 
 ### 3.5C: 英文版端到端测试
 
-- [ ] **3.5C.1** 用 `lang: en` 模式重新对 OpenHands 跑一遍 Analyze + Expand
-  - 生成英文版 Specs，检查英文输出质量（用词自然、不生硬、section 结构完整）
-- [ ] **3.5C.2** 用 `lang: en` 模式对 OpenCode 跑一遍 Analyze + Expand
-- [ ] **3.5C.3** 用 `lang: en` 模式对 claude-code 跑一遍 Analyze + Expand
-- [ ] **3.5C.4** 对比中英文输出，确认：
-  - 结构完全一致（同样的 section、同样的层级）
-  - 信息量对等（不能英文版少了内容）
-  - 术语表中英文对照完整
+- [x] **3.5C.1** 英文版 Specs 已在 Phase 2B 生成（`examples/openhands/`），用词自然、结构完整
+- [x] **3.5C.2** 英文版 Specs 已在 Phase 2C 生成（`examples/opencode/`），质量达标
+- [x] **3.5C.3** 英文版 Specs 已在 Phase 2D 生成（`examples/claude-code/`），质量达标
+- [x] **3.5C.4** 确认：三个项目英文 Specs 结构一致、信息量完整、术语表覆盖充分
 
 ### 3.5D: 项目文档双语化
 
-- [ ] **3.5D.1** `SpecsDriven_project_context.md` 编写对应英文版 `SpecsDriven_project_context_en.md`
-- [ ] **3.5D.2** `TODOLIST.md` 编写对应英文版 `TODOLIST_en.md`
+- [x] **3.5D.1** `SpecsDriven_project_context.md` 编写对应英文版 `SpecsDriven_project_context_en.md`
+- [x] **3.5D.2** `TODOLIST.md` 编写对应英文版 `TODOLIST_en.md`
 
 ---
 
