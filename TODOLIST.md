@@ -8,7 +8,7 @@
 
 ## Phase 0: 项目结构初始化
 
-- [ ] **0.1** 创建项目目录结构：
+- [x] **0.1** 创建项目目录结构：
   ```
   SpecLens/
   ├── skills/              # 所有 Skill 文件
@@ -39,8 +39,8 @@
   ├── TODOLIST.md
   └── README.md
   ```
-- [ ] **0.2** 初始化 Git 仓库，创建 `.gitignore`
-- [ ] **0.3** 创建初始 README.md（简洁版，后续 Phase 4 完善）
+- [x] **0.2** 初始化 Git 仓库，创建 `.gitignore`
+- [x] **0.3** 创建初始 README.md（简洁版，后续 Phase 4 完善）
 
 ---
 
@@ -50,14 +50,14 @@
 
 ### 1A: 设计模板
 
-- [ ] **1A.1** 编写 `templates/spec_file.md` — 单个 Spec 文件的标准格式
+- [x] **1A.1** 编写 `templates/spec_file.md` — 单个 Spec 文件的标准格式
   - YAML frontmatter：status、maps_to、last_expanded、dependencies
   - Markdown body：一句话描述、职责、输入/输出、关键约束、与其他模块的关系、实现笔记
   - 参考 `SpecsDriven_project_context.md` 第 5 节的格式设计
-- [ ] **1A.2** 编写 `templates/_index.md` — 每层目录的导航模板
+- [x] **1A.2** 编写 `templates/_index.md` — 每层目录的导航模板
   - 该层的模块列表 + 一句话描述
   - 模块间关系的简要说明
-- [ ] **1A.3** 编写顶层模板（overview / architecture / data_flow / _mapping / _glossary）
+- [x] **1A.3** 编写顶层模板（overview / architecture / data_flow / _mapping / _glossary）
   - overview：项目是什么、做什么、技术栈、架构图（Mermaid）
   - architecture：架构决策、技术选型理由、核心模块关系
   - data_flow：数据如何在系统中流动（端到端路径描述）
