@@ -114,11 +114,11 @@
 
 ### 2C: 目标项目 — OpenCode
 
-- [ ] **2C.1** Clone OpenCode 项目到本地
+- [x] **2C.1** Clone OpenCode 项目到本地
   - `git clone https://github.com/opencode-ai/opencode`
-- [ ] **2C.2** 用 Analyze Skill 生成 `examples/opencode/` 的 Specs 骨架
-- [ ] **2C.3** 用 Expand Skill 展开 3-5 个核心模块的 Spec
-- [ ] **2C.4** 审查结果，迭代 Skill
+- [x] **2C.2** 用 Analyze Skill 生成 `examples/opencode/` 的 Specs 骨架
+- [x] **2C.3** 用 Expand Skill 展开 3-5 个核心模块的 Spec
+- [x] **2C.4** 审查结果，迭代 Skill
 
 ### 2D: 目标项目 — claude-code
 
