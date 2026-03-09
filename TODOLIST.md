@@ -134,19 +134,19 @@
 
 > 目标：完成全部 5 个 Skill，覆盖学习、开发、维护三种模式。
 
-- [ ] **3.1** 编写 `skills/validate/SKILL.md` — Specs 一致性检查
+- [x] **3.1** 编写 `skills/validate/SKILL.md` — Specs 一致性检查
   - 检查 Specs 之间的逻辑一致性
   - 检查 Specs 与实际代码是否对应
   - 检查是否有模块被遗漏
   - 输出一致性报告
 
-- [ ] **3.2** 编写 `skills/diff-upgrade/SKILL.md` — 版本差异与升级
+- [x] **3.2** 编写 `skills/diff-upgrade/SKILL.md` — 版本差异与升级
   - 对比当前 Specs 与之前版本（通过 Git diff）
   - 识别意图变更，生成人类可读的变更摘要
   - 生成代码修改任务列表
   - 可选：指导 Agent 执行代码修改
 
-- [ ] **3.3** 编写 `skills/code-from-spec/SKILL.md` — 从 Spec 生成代码
+- [x] **3.3** 编写 `skills/code-from-spec/SKILL.md` — 从 Spec 生成代码
   - 读取 Spec 中的意图、约束、接口定义
   - 从约束描述中自动派生测试用例
   - 生成符合 Spec 的代码实现
