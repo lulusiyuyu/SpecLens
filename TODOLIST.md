@@ -81,7 +81,7 @@
 
 ### 1C: 编写 Expand Skill
 
-- [ ] **1C.1** 编写 `skills/expand/SKILL.md`
+- [x] **1C.1** 编写 `skills/expand/SKILL.md`
   - 输入：指定的 Spec 文件路径
   - 输出：该 Spec 的详细内容
   - Skill 指令需明确以下步骤：
