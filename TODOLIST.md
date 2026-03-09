@@ -66,7 +66,7 @@
 
 ### 1B: 编写 Analyze Skill
 
-- [ ] **1B.1** 编写 `skills/analyze/SKILL.md`
+- [x] **1B.1** 编写 `skills/analyze/SKILL.md`
   - 输入：代码库路径（本地项目）
   - 输出：镜像原项目结构的 Specs 文件夹
   - Skill 指令需明确以下步骤：
