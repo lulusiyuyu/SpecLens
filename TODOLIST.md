@@ -192,7 +192,7 @@
 
 > 目标：写一个让人一看就想用的 README，中英文双语，然后发布。
 
-- [ ] **4.1** 编写完整版 `README.md`（英文，作为仓库主 README），包含：
+- [x] **4.1** 编写完整版 `README.md`（英文，作为仓库主 README），包含：
   - 一句话介绍
   - 核心理念（Specs is the next abstraction layer; Agent is the compiler）
   - 30 秒 Quick Start（3 步：download → feed to Agent → see results）
@@ -202,7 +202,7 @@
   - 与现有工具的对比
   - 顶部添加 `[中文](./README_zh.md)` 切换链接
 
-- [ ] **4.2** 编写 `README_zh.md`（中文版 README）
+- [x] **4.2** 编写 `README_zh.md`（中文版 README）
   - 内容与英文版对等
   - 顶部添加 `[English](./README.md)` 切换链接
 
