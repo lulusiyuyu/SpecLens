@@ -100,9 +100,9 @@
 
 ### 2A: Dogfooding
 
-- [ ] **2A.1** 用 Analyze Skill 分析 SpecLens 项目自身 → 生成 `examples/speclens-self/`
-- [ ] **2A.2** 审查生成结果，记录需要调整 Skill 的地方
-- [ ] **2A.3** 迭代修改 Analyze Skill，重新生成，直到满意
+- [x] **2A.1** 用 Analyze Skill 分析 SpecLens 项目自身 → 生成 `examples/speclens-self/`
+- [x] **2A.2** 审查生成结果，记录需要调整 Skill 的地方
+- [x] **2A.3** 迭代修改 Analyze Skill，重新生成，直到满意
 
 ### 2B: 目标项目 — OpenHands
 
